@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "VNadnoHgJ0nUD_0Luivvp",
+      "name": "Andre Bernhard"
+    },
+    {
+      "id": "15UXxa1IQlws8EIb86vmU",
+      "name": "Josephine Will"
+    }
+  ],
+  "albums": [
+    {
+      "id": "0",
+      "name": "album-1",
+      "userID": "VNadnoHgJ0nUD_0Luivvp"
+    },
+    {
+      "id": "1",
+      "name": "album-2",
+      "userID": "VNadnoHgJ0nUD_0Luivvp"
+    },
+    {
+      "id": "2",
+      "name": "album-1",
+      "userID": "15UXxa1IQlws8EIb86vmU"
+    }
+  ],
+  "photos": []
+}
