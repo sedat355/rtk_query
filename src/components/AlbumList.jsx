@@ -9,7 +9,7 @@ const AlbumList = ({user}) => {
   })
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 flex flex-col gap-y-1">
       {renderedAlbums}
     </div>
   )
