@@ -1,6 +1,17 @@
-const PhotoList = () => {
+import { useFetchPhotosQuery } from "../store/slices/photosApi"
+import Photo from "./Photo";
+
+const PhotoList = ({album}) => {
+  const { data } = useFetchPhotosQuery(album);
+
+  const renderedPhotos = data?.map( photo => {
+    return <Photo key={photo.id} photo={photo}/>
+  })
+
   return (
-    <div>PhotoList</div>
+    <div className="flex gap-x-1 mt-4">
+      {renderedPhotos}
+    </div>
   )
 }
 

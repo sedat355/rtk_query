@@ -26,5 +26,21 @@
       "userID": "15UXxa1IQlws8EIb86vmU"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "0",
+      "name": "photo-1",
+      "albumID": "0"
+    },
+    {
+      "id": "1",
+      "name": "photo-2",
+      "albumID": "0"
+    },
+    {
+      "id": "2",
+      "name": "photo-3",
+      "albumID": "2"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 import { MdClose } from "react-icons/md"
 import Button from "../reuseable_components/Button"
 import ExpandablePanel from "../reuseable_components/ExpandablePanel"
+import PhotoList from "./PhotoList"
 
 const Album = ({album}) => {
 
@@ -16,7 +17,7 @@ const Album = ({album}) => {
   return (
     <div className="border border-slate-400 p-2">
       <ExpandablePanel leftSectionItem={leftSectionItem}>
-
+        <PhotoList album={album}/>
       </ExpandablePanel>
     </div>
   )
