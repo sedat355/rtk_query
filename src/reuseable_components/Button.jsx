@@ -8,9 +8,9 @@ const Button = ({children, btnType, type="button", size="medium", handleClick, l
 
   const variants = {
     "bg-blue-500 text-white": btnType === "primary",
-    "bg-gray-one text-black opacity-50": btnType === "passive",
-    "bg-green-two text-white": btnType === "success",
-    "bg-red-one text-white": btnType === "danger",
+    "bg-gray-200 text-black opacity-50": btnType === "passive",
+    "bg-green-500 text-white": btnType === "success",
+    "bg-red-500 text-white": btnType === "danger",
     "bg-transparent text-black border border-black-one": btnType === "outline",
     "p-1.5 text-sm rounded-full": size === 'circle-sm',
     "p-2.5 text-lg rounded-full": size === 'circle-md',

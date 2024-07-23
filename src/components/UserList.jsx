@@ -8,7 +8,7 @@ const UserList = () => {
     return <User key={user.id} user={user}/>
   })
   return (
-    <div>
+    <div className="flex flex-col gap-y-2 mt-4">
       {renderedUsers}
     </div>
   )
