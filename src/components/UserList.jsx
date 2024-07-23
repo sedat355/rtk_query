@@ -7,6 +7,7 @@ const UserList = () => {
   const renderedUsers = data?.map( user => {
     return <User key={user.id} user={user}/>
   })
+  
   return (
     <div className="flex flex-col gap-y-2 mt-4">
       {renderedUsers}

@@ -4,7 +4,7 @@ import UserList from "./UserList"
 const App = () => {
   return (
     <div>
-      <Header title="User List" btnTitle="+Add User"/>
+      <Header title="User List" btnTitle="+Add User" btnSize="large" textSize="text-2xl"/>
       <UserList/>
     </div>
   )

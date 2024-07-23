@@ -3,15 +3,20 @@ import Button from "./Button"
 import { GoChevronLeft } from "react-icons/go"
 import { GoChevronDown } from "react-icons/go"
 
-const ExpandablePanel = ({ children }) => {
+const ExpandablePanel = ({ children, leftSectionItem }) => {
   const [isOpenPanel, setIsOpenPanel] = useState(false)
 
   return (
     <>
-      <div onClick={() => setIsOpenPanel(!isOpenPanel)}>
-        <Button>{isOpenPanel ? <GoChevronDown /> : <GoChevronLeft />}</Button>
-        {isOpenPanel && children}
+      <div className="flex items-center justify-between">
+        {leftSectionItem}
+
+        <div onClick={() => setIsOpenPanel(!isOpenPanel)}>
+          <Button>{isOpenPanel ? <GoChevronDown /> : <GoChevronLeft />}</Button>
+        </div>
       </div>
+
+      {isOpenPanel && children}
     </>
   )
 }
