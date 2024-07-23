@@ -1,9 +1,11 @@
-import Panel from "../reuseable_components/Panel"
+import Header from "../reuseable_components/Header"
+import UserList from "./UserList"
 
 const App = () => {
   return (
     <div>
-      <Panel/>
+      <Header/>
+      <UserList/>
     </div>
   )
 }
