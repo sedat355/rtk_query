@@ -32,14 +32,28 @@
   ],
   "photos": [
     {
-      "id": "4N3vO-vKs0b7T8AgYdARA",
-      "name": "Bespoke",
-      "albumID": "wdcFgJ7y7dvXH1WquaeY6"
+      "id": "LY1CyN4eNucs4WpaO4B2i",
+      "name": "Generic",
+      "albumID": "SItcJVUsGsqQiKyszqFwg",
+      "url": "https://picsum.photos/seed/IWKA2wA/640/480"
     },
     {
-      "id": "pFrm0BGh1YzkOBEKN9ff1",
-      "name": "Bespoke",
-      "albumID": "wdcFgJ7y7dvXH1WquaeY6"
+      "id": "hYEwTnjU0tmOUjp7E6qNC",
+      "name": "Ergonomic",
+      "albumID": "wdcFgJ7y7dvXH1WquaeY6",
+      "url": "https://picsum.photos/seed/rMeVP/640/480"
+    },
+    {
+      "id": "OjK4KGorSeijLZ5FYUZ4m",
+      "name": "Elegant",
+      "albumID": "wdcFgJ7y7dvXH1WquaeY6",
+      "url": "https://picsum.photos/seed/hg8op/640/480"
+    },
+    {
+      "id": "sPUdFg3FldR7T6iSDlUov",
+      "name": "Refined",
+      "albumID": "wdcFgJ7y7dvXH1WquaeY6",
+      "url": "https://picsum.photos/seed/QyfMYcQC/640/480"
     }
   ]
 }

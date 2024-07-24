@@ -41,15 +41,26 @@ const photosApi = createApi({
             body: {
               id: nanoid(),
               name: faker.commerce.productAdjective(),
-              albumID: album.id
+              albumID: album.id,
+              url: faker.image.urlPicsumPhotos()
             }
           }
         }
       }),
-      removePhoto: builder.mutation({})
+      removePhoto: builder.mutation({
+        invalidatesTags: (result, error, photo) => {
+          return [{ type: 'Photos', id: photo.id}]
+        },
+        query: (photo) => {
+          return {
+            url: `photos/${photo.id}`,
+            method: 'DELETE'
+          }
+        }
+      })
     }
   }
 });
 
 export default photosApi;
-export const { useFetchPhotosQuery, useAddPhotoMutation } = photosApi;
+export const { useFetchPhotosQuery, useAddPhotoMutation, useRemovePhotoMutation } = photosApi;
