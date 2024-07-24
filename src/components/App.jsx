@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div>
-      <Header handleAddUser={addUser} title="User List" btnTitle="+Add User" btnSize="large" textSize="text-2xl"/>
+      <Header handleAdd={addUser} title="User List" btnTitle="+Add User" btnSize="large" textSize="text-2xl"/>
       <UserList/>
     </div>
   )

@@ -5,7 +5,7 @@ const AlbumList = ({user}) => {
   const { data } = useFetchAlbumsQuery(user)
 
   const renderedAlbums = data?.map( album => {
-    return <Album key={album.id} album={album}/>
+    return <Album key={album.id} album={album} user={user}/>
   })
 
   return (

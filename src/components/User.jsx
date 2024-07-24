@@ -4,9 +4,11 @@ import ExpandablePanel from "../reuseable_components/ExpandablePanel"
 import AlbumList from "./AlbumList"
 import Header from "../reuseable_components/Header"
 import { useRemoveUserMutation } from "../store/slices/usersApi"
+import { useAddAlbumMutation } from "../store/slices/albumsApi"
 
 const User = ({ user }) => {
   const [ removeUser, result ] = useRemoveUserMutation();
+  const [ addAlbum ] = useAddAlbumMutation();
 
   const leftSectionItem = (
     <div className="flex items-center gap-x-4">
@@ -21,6 +23,8 @@ const User = ({ user }) => {
     <div className="border border-slate-400 p-2">
       <ExpandablePanel leftSectionItem={leftSectionItem}>
         <Header
+          handleAdd={addAlbum}
+          obj={user}
           title={`${user.name}'in album listesi`}
           btnTitle="+Add Album"
           btnSize="medium"

@@ -1,9 +1,9 @@
 import Button from "./Button"
 
-const Header = ({title, btnTitle, btnSize, textSize, handleAddUser}) => {
+const Header = ({title, btnTitle, btnSize, textSize, handleAdd, obj}) => {
 
   const handleAddClick = () => {
-    handleAddUser();
+    handleAdd(obj);
   }
 
   return (
