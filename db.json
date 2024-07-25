@@ -32,12 +32,6 @@
   ],
   "photos": [
     {
-      "id": "LY1CyN4eNucs4WpaO4B2i",
-      "name": "Generic",
-      "albumID": "SItcJVUsGsqQiKyszqFwg",
-      "url": "https://picsum.photos/seed/IWKA2wA/640/480"
-    },
-    {
       "id": "hYEwTnjU0tmOUjp7E6qNC",
       "name": "Ergonomic",
       "albumID": "wdcFgJ7y7dvXH1WquaeY6",
@@ -50,10 +44,16 @@
       "url": "https://picsum.photos/seed/hg8op/640/480"
     },
     {
-      "id": "sPUdFg3FldR7T6iSDlUov",
-      "name": "Refined",
+      "id": "6VWxM5Q0jRROQHTOF9r6h",
+      "name": "Sleek",
       "albumID": "wdcFgJ7y7dvXH1WquaeY6",
-      "url": "https://picsum.photos/seed/QyfMYcQC/640/480"
+      "url": "https://picsum.photos/seed/KedIbP/640/480"
+    },
+    {
+      "id": "eu3GChXP9B879JLPckjU3",
+      "name": "Small",
+      "albumID": "SItcJVUsGsqQiKyszqFwg",
+      "url": "https://picsum.photos/seed/azuZHAN/640/480"
     }
   ]
 }

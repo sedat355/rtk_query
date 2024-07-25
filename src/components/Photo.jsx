@@ -12,11 +12,11 @@ const Photo = ({ photo }) => {
         src={photo.url}
         alt={photo.name}
       />
-      <div className="absolute top-1 right-1 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center bg-gray-200 opacity-0 hover:opacity-70">
         <Button 
           handleClick={() => removePhoto(photo)}
-          btnType="danger" size="circle-sm" className="text-2xl text-red-500 font-bold bg-gray-50">
-          <MdClose />
+          size="circle-sm" className="bg-red-400">
+          <MdClose className="text-2xl font-bold"/>
         </Button>
       </div>
     </div>
